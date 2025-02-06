@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    transition: background-color 1s;
+}
+button {
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}

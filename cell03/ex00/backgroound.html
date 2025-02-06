@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Background Color</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+<body>
+    <button onclick="changeColor()">Click me!</button>
+    <script>
+        function changeColor() {
+            const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>
