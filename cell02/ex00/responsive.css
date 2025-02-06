@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+    width: 100%; height: 100%;
+    }
+td {
+    border: 1px solid black;
+    }
+.cell01{
+    background-color: #DEB887;
+    }
+.cell02{
+    background-color: #DB7093;
+    }
