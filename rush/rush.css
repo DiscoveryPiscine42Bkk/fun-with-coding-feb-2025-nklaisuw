@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e4f1ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #3c9aff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+nav {
+    background: #343a40;
+    border: #e4f1ff;
+}
+nav a {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover, .dropdown:hover .dropdown-menu {
+    background: #007bff;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #343a40 !important;
+}
+section {
+    padding: 60px 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+.resume-section {
+    display: none;
+}
+footer {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    background: #3c9aff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+}
+.dropdown-menu {
+    background: #343a40;
+    border: none;
+}
+.dropdown-menu a {
+    color: white;
+}
+.dropdown-menu a:hover {
+    background: #007bff;
+}
+h2{
+    font-size: 36px;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #000000;
+    margin: 40px 0;
+}
+.sp {
+    height: 5vh;
+    background-color: #e4f1ff;
+    padding: auto;
+}
+.go-top{
+    height: 3%;
+    position: fixed;
+    width: 100%;
+    background: #3c9aff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom:5%
+}

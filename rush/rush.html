@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>One page Resume</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="rush.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="showResume('null')">My Resume</a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showResume('resume1')">Thanakrit Sirimongkolwattana</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showResume('resume2')">Nareekarn Klaisuwan</a>
+                    </li>
+
+                    <!-- Dropdown for Sections -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resumeDropdown" role="button" data-toggle="dropdown">
+                            More Details
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('info')">Information</a>
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('education')">Education</a>
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('experience')">Experience</a>
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('skills')">Skills</a>
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('languages')">Languages</a>
+                            <a class="dropdown-item" href="#" onclick="scrollToSection('certifications')">Certifications</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="resume1" class="resume-section">
+        <br>
+        <center><img src="view_file.php.jpeg" width="500px" height="500px"></center>
+        <br>
+        <div class="container">
+            <h2 id = "info1"><center>Thanakrit Sirimongkolwattana</center></h2>
+            <p><strong><center>Contact:</center></strong></p>
+            <p><center><strong>E-mail : </strong>thanakrit.sirimongkolwattana@gmail.com</center></p>
+            <p><center><strong>Phone : </strong>+66 90 975 1939</center></p>
+            <p><center><strong>Address:</strong> Saraburi, Thailand</center></p>
+            <hr>
+            <h3 id="education1">Education</h3>
+            <ul>
+                <li><strong>King Mongkut's Institute of Technology Ladkrabang</strong> - B.Eng. in Telecommunications and Network Engineering</li>
+                <li><strong>Princess Chulabhorn Science High School Chonburi</strong> - Mathematics and Science program</li>
+            </ul>
+            <hr>
+            <h3 id="experience1">Experience</h3>
+            <ul>
+                <li><strong>TERAHOP (THAILAND) CO.,LTD</strong> - Test Engineer Intern
+                    <ul>
+                        <li>Conducted thorough analysis of optical transceiver failures, identifying root causes and implementing solutions to improve product reliability.</li>
+                        <li>Collaborated with cross-functional teams to streamline testing processes.</li>
+                        <li>Documented technical findings and presented summaries to senior engineers, strengthening communication skills.</li>
+                        <li>Create various Excel Macros</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+            <h3 id="skills1">Skills</h3>
+            <ul>
+                <li>Technical Skills: Python, C, VBA (Microsoft Excel), Docker, Network Programming, shell</li>
+                <li>Soft Skills: Adaptability, Teamworker, Project Management, Problem-Solving</li>
+            </ul>
+            <hr>
+            <h3 id="languages1">Languages</h3>
+            <ul>
+                <li>Thai (Native)</li>
+                <li>English (CEFR B2)</li>
+            </ul>
+            <hr>
+            <h3 id="certifications1">Certifications</h3>
+            <ul>
+                <li>Satellite Development Course (4th Generation) — GISTDA</li>
+                <li>5G E2E Evolution and Key Technology Training — Huawei</li>
+                <li>Cloud Computing Cutting-edge Technology and Trends — Huawei</li>
+                <li>Network Lab Staff — Managed lab activities, supporting network engineering projects with strong organizational skills.</li>
+                <li>Small satellite design and manufacturing activity — NXPO</li>
+            </ul>
+        </div>
+        <div class="sp"></div>
+    </section>
+
+    <section id="resume2" class="resume-section">
+        <br>
+        <center><img src="IMG_54489.jpg" width="500px" height="600px"></center>
+        <br>
+        <div class="container">
+            <h2><center>Nareekarn Klaisuwan</center></h2>
+            <p><center><strong>Contact:</strong> </center></p>
+            <p><center><strong>E-mail : </strong>ruhanee9387@gmail.comt</center></p>
+            <p><center><strong>Phone : </strong>+66 98 281 7061</center></p>
+            <p><center><strong>Address:</strong> Bangkok, Thailand</center></p>
+            <hr>
+            <h3 id="education2">Education</h3>
+            <ul>
+                <li><strong>King Mongkut's Institute of Technology Ladkrabang</strong> - B.Eng. in Agriculture Intelligent Engineering</li>
+                <li><strong>Bangkok Witthaya(Foundation) School</strong> - Science - Math Program</li>
+            </ul>
+            <hr>
+            <h3 id="experience2">Experience</h3>
+            <ul>
+                <li><strong>Identification of cactus species using AI technology</strong> - (2022)
+                <ul>
+                    <li>Design a cactus planting set</li>
+                    <li>Making code for type classification by extracting ORB features</li>
+                    <li>Train machine learning models : PLS, SVM, ANN</li>
+                </ul>
+                <br>
+                </li>
+                <li><strong>Forecasting of lemon price by machine learning</strong> - (2021)
+                <ul>
+                    <li>Search for missing value and train machine learning models : ANN, PLS, MLR</li>
+                </ul>
+                </li>
+            </ul>
+            <hr>
+            <h3 id="skills2">Skills</h3>
+            <ul>
+                <li>Hard Skills : Data analysis, Python, Microsoft Offices, Web design, QGIS</li>
+                <li>Soft Skills : Teamwork, Communication, Responsibility, Emotinal Intelligence</li>
+            </ul>
+            <hr>
+            <h3 id="languages2">Languages</h3>
+            <ul>
+                <li>Thai (Native)</li>
+                <li>English (Intermediate)</li>
+                <li>Arabic (Beginner)</li>
+            </ul>
+            <hr>
+            <h3 id="activities2">Activities</h3>
+            <ul>
+                <li>Agriculture Camp</li>
+                <li>Agriculture Tractor driving training</li>
+            </ul>
+        </div>
+        <div class="sp"></div>
+    </section>
+    <a class="go-top" href="#" onclick="scrollToSection('top-bar')">Go to Top</a>
+    <footer>
+        <p>&copy; 2025 tsirimon & nklaisuw</p>
+    </footer>
+
+    <script src="rush.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
